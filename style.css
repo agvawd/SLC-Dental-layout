@@ -1,0 +1,99 @@
+* {
+	outline: 1px solid red;
+}
+
+html, body {
+	width: 100%;
+	height: 2000px;
+	background: #005AA3;
+	margin: 0;	
+}
+
+.top {
+	width: 100%;
+	height: 30px;
+	background: #004E8E;
+	color: white;
+	border-bottom: 1px solid #378CCD;
+	margin: 0 auto;
+	font-family: sans-serif;
+	line-height: 30px;
+	box-sizing: border-box;
+	font-size: 11px;
+	text-align: center;
+}
+
+.top__address {
+	margin-left: 100px;
+	width: 55%;
+	float: left;
+	text-align: center;
+	border-right: 1px solid white;
+
+}
+
+.top__phone {
+	width: 10%;
+	float: left;	
+	border-right: 1px solid white; 
+}
+
+.top__links {
+	width: 10%;
+	float: left;
+}
+
+.main {
+	height: 1900px;
+	width: 955px;
+	background: white;
+	margin: 0 auto;
+	margin-top: 20px;
+	padding: 20px;
+	box-sizing: border-box;
+}
+
+.main__top {
+
+}
+
+.main__top__link {
+	text-decoration: none;
+	margin: 0 auto;
+	display: inline-block;
+	font-family: sans-serif;
+	font-size: 18px;
+}
+
+.options {
+	float: right;
+	padding: 27px;
+	margin-right: 100px;
+}
+
+.bigPic {
+	height: 20%;
+	width: 90%;
+	margin: 0 auto;
+	margin-top: 50px;
+}
+
+.threePics {
+	padding: 20px;
+	width: 100%;
+}
+
+.Pic {
+	float: left;
+	padding: 5px;
+}
+
+.threeText {
+	width: 100%;
+}
+
+.text {
+	width: 30%;
+	float: left;
+	padding: 15px;
+}
