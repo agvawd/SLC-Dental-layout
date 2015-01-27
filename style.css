@@ -1,10 +1,6 @@
-* {
-	outline: 1px solid red;
-}
-
 html, body {
 	width: 100%;
-	height: 2000px;
+	height: 2700px;
 	background: #005AA3;
 	margin: 0;	
 }
@@ -44,17 +40,13 @@ html, body {
 }
 
 .main {
-	height: 1900px;
+	height: 2600px;
 	width: 955px;
 	background: white;
 	margin: 0 auto;
 	margin-top: 20px;
 	padding: 20px;
 	box-sizing: border-box;
-}
-
-.main__top {
-
 }
 
 .main__top__link {
@@ -72,10 +64,11 @@ html, body {
 }
 
 .bigPic {
-	height: 20%;
+	height: 15%;
 	width: 90%;
 	margin: 0 auto;
 	margin-top: 50px;
+	padding-right: 50px;
 }
 
 .threePics {
@@ -96,4 +89,32 @@ html, body {
 	width: 30%;
 	float: left;
 	padding: 15px;
+}
+
+.across {
+	width: 33%;
+	float: left;
+	margin-bottom: 40px;
+	text-indent: 20px;
+}
+.bottomBigPic {
+	padding-left: 20px;
+}
+
+.welcome {
+	padding: 20px;
+	box-sizing: border-box;
+}
+
+.reviews {
+	text-align: center;
+}
+
+.video {
+	background: #9c9c9c;
+	height: 400px;
+	width: 80%;
+	padding: 20px;
+	box-sizing: border-box;
+	margin: 0 auto;
 }
